@@ -1,0 +1,225 @@
+@font-face {
+    font-family: 'ProximaNovaLight';
+    src: url('../fonts/proximanova-light.eot');
+    src: local(":)");
+    src: url('../fonts/proximanova-light.eot') format('embedded-opentype'),
+        url('../fonts/proximanova-light.svg') format('svg'),  
+        url('../fonts/proximanova-light.woff') format('woff'),  
+        url('../fonts/proximanova-light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'blanchcaps';
+    src: url('../fonts/blanch_caps-webfont.eot');
+    src: local(":)");
+    src: url('../fonts/blanch_caps-webfont.eot?#iefix') format('embedded-opentype'),  
+    url('../fonts/blanch_caps-webfont.woff') format('woff'),  
+    url('../fonts/blanch_caps-webfont.ttf') format('truetype'),  
+    url('../fonts/blanch_caps-webfont.svg#blanchcaps') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+header {
+    height: 130px;
+}
+
+header img{
+    margin-left: 42%;
+}
+
+#phone {
+    position: relative;
+    float: right;
+    margin-right: auto;
+    display: block;
+    top: 50%;
+}
+
+nav ul {
+    -webkit-padding-start: 0;
+}
+li.motto {
+    width: 100%;
+    position: relative;
+    bottom: 6px;
+    text-align: center;
+    margin: 0 auto;
+    list-style: none;
+    font-size: 14px;
+    color: #000;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+}
+
+article {
+    width: 100%;
+    line-height: 140%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
+    line-height: 140%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #727373;
+}
+
+footer a {
+    text-decoration: none;
+    color: #727373;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font: 10px/13px 'Lucida Sans', sans-serif;
+}
+
+span {
+    color: red;
+}
+
+
+.wrap {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.box {
+    float: left;
+    position: relative;
+    width: 20%;
+    padding-bottom: 20%;
+}
+.boxInner {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    overflow: hidden;
+}
+.boxInner img {
+    width: 100%;
+}
+
+
+ @media only screen and (max-width : 480px) {
+/* Smartphone view: 1 tile */
+header img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+}
+
+.box {
+    width: 25%;
+    padding-bottom: 25%;
+}
+
+h1, h2, h3, h4 {
+    line-height: 20px;
+    
+}
+
+#phone {
+    right: 4%;
+}
+
+}
+ @media only screen and (max-width : 650px) and (min-width : 481px) {
+/* Tablet view: 2 tiles */
+
+header img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+}
+
+.box {
+    width: 25%;
+    padding-bottom: 25%;
+}
+
+#phone {
+    right: 4%;
+}
+
+
+}
+ @media only screen and (max-width : 1050px) and (min-width : 651px) {
+/* Small desktop / ipad view: 3 tiles */
+
+.box {
+    width: 15%;
+    padding-bottom: 15%;
+    left: 5%;
+}
+
+#hide1 {
+    display: none;
+}
+
+#hide2 {
+    display: none;
+}
+
+#phone {
+    width: 15%;
+    line-height: 175%;
+    font-size: 9px;
+    right: 7%;
+}
+
+}
+ @media only screen and (max-width : 1290px) and (min-width : 1051px) {
+/* Medium desktop: 4 tiles */
+.box {
+    width: 15%;
+    padding-bottom: 15%;
+    left: 5%;
+}
+
+#hide1 {
+    display: none;
+}
+
+#hide2 {
+    display: none;
+}
+
+#phone {
+    font-size: 10px;
+    right: 7%;
+}
+
+}
+ @media only screen and (min-width : 1291px) {
+/* large desktop: 4 tiles */
+
+
+.box {
+    width: 15%;
+    padding-bottom: 15%;
+    left: 5%;
+}
+
+#hide1 {
+    display: none;
+}
+
+#hide2 {
+    display: none;
+}
+
+#phone {
+    right: 7%;
+
+}

@@ -1,0 +1,35 @@
+/********************************************** 
+All Pages 
+**********************************************/
+
+h1#logo {
+	width: 184px;
+	height: 68px;
+	position: relative;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+#icon1:after {
+	background:url("themes/images/icons3/16-line-chart.png") 50% 50% no-repeat;
+	background-size: 24px 22px;	
+}
+
+#date:after {
+	background:url("themes/images/icons3/83-calendar.png") 50% 50% no-repeat;
+	background-size: 24px 22px;	
+}
+
+#contact:after {
+	background:url("themes/images/icons3/08-chat.png") 50% 50% no-repeat;
+	background-size: 24px 22px;	
+}
+
+#power:after {
+	background:url("themes/images/symbols/57-power.png") 50% 50% no-repeat;
+	background-size: 24px 22px;	
+}
+
+.nav-glyphish-example .ui-btn { padding-top: 40px !important; }
+.nav-glyphish-example .ui-btn:after { width: 30px!important; height: 30px!important; margin-left: -15px !important; box-shadow: none!important; -moz-box-shadow: none!important; -webkit-box-shadow: none!important; -webkit-border-radius: 0 !important; border-radius: 0 !important; }
+

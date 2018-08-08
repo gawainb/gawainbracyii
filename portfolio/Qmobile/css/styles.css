@@ -1,0 +1,151 @@
+/********************************************** 
+All Pages 
+**********************************************/
+
+h1#logo {
+	width: 184px;
+	height: 68px;
+	position: relative;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+.nav-glyphish-example .ui-btn { padding-top: 40px !important; }
+.nav-glyphish-example .ui-btn:after { width: 30px!important; height: 30px!important; margin-left: -15px !important; box-shadow: none!important; -moz-box-shadow: none!important; -webkit-box-shadow: none!important; -webkit-border-radius: 0 !important; border-radius: 0 !important; background: none; }
+
+
+
+/******************************************* 
+Login Page 
+********************************************/
+
+div#loginPage {
+	background: url('../img/mortar.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+div.ui-body {
+	background-color: #efeff4;
+	border: none;
+}
+
+#cancel {
+	float: left;
+}
+
+#login {
+	float: right;
+}
+
+/***************************************** 
+Menu Page 
+******************************************/
+
+a.ui-btn.ui-btn-inline.ui-corner-all {
+	text-align: center;
+}
+
+#sales {
+	background-color: #22326F;
+	border: solid 1px #131B3D;
+}
+
+#sales:hover {
+	background-color: #efeff4;
+}
+
+#calendar {
+	background-color: #6C88B1;
+	border: solid 1px #43556F;
+}
+
+#calendar:hover {
+	background-color: #efeff4;
+}
+
+#message {
+	background-color: #B1BCD6;
+	border: solid 1px #838B9D;
+}
+
+#message:hover {
+	background-color: #efeff4;
+}
+
+/********************************** 
+Register Page
+***********************************/
+
+ul#reglist li {
+	list-style-type: none;
+}
+
+/************************************
+Reports Page
+*************************************/
+
+
+.jrPage {
+	background-color: #FFFFFF;
+	position:relative;
+	width:100%;
+}
+
+div#title {
+	background-color: #363636;
+	position: relative;
+	width: 100%;
+	height: 76px;
+}
+
+#logoTwo {
+	width: 117.6px;
+	height: 47.6px;
+	position: absolute;
+	display: block;
+	margin: 10px 10px;
+	padding: 2px 0 0 2px;
+}
+
+div#title .today {
+	display: inline-block;
+	position: relative;
+	float: right;
+	margin: 40px auto;
+	padding: 0 10px;
+	color: #E8E8E8;
+	font-family: "Times New Roman", Georgia, Serif; 
+}
+
+#title h3 {
+	font-family: "Times New Roman", Georgia, Serif;
+	margin: 14px 50%;
+	position: absolute;
+	text-align: center;
+	color: #E8E8E8;
+}
+
+#subtitle {
+	line-height: 4px;
+	font-family: "Times New Roman", Georgia, Serif;
+	width: 100%;
+	height: 60px;
+}
+
+#subtitle p {
+	font-style: normal;
+	font-size: 1em;
+}
+
+/*************************
+Retina Displays
+*************************/
+
+
